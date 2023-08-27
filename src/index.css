@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   max-width:1920px;
+}
+input,select{
+@apply border-[#B7B7B7] border rounded-[5px] px-3 py-0.5 mb-1
+}
+.H2{
+   @apply text-[#23aaeb] text-[16px] font-semibold after:h-1 after:w-[44px] after:bg-[#E0F3FD] relative
+}
+.H2 span{
+   @apply absolute -bottom-1 rounded w-[44px] h-1 bg-[#E0F3FD]
+}
+label{
+   @apply text-[13px] leading-[15px] my-1 text-[#313030;]
+}
